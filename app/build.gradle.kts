@@ -38,6 +38,7 @@ dependencies {
     implementation(libs.activity)
     implementation(libs.constraintlayout)
     implementation(libs.firebase.firestore)
+    implementation(libs.firebase.storage)
     implementation(libs.glide)
     annotationProcessor(libs.glideCompiler)
     testImplementation(libs.junit)
