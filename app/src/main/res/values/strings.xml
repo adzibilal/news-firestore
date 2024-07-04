@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">News Adzi Firestore</string>
+    <string name="add">Add Item</string>
 </resources>
