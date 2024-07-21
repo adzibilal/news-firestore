@@ -1,5 +1,7 @@
 package com.example.newsadzifirestore;
 
+import android.content.Context;
+import android.content.Intent;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -16,9 +18,11 @@ import java.util.List;
 public class NewsAdapter extends RecyclerView.Adapter<NewsAdapter.NewsViewHolder> {
 
     private List<NewsItem> newsList;
+    private Context context;
 
-    public NewsAdapter(List<NewsItem> newsList) {
+    public NewsAdapter(List<NewsItem> newsList, Context context) {
         this.newsList = newsList;
+        this.context = context;
     }
 
     @NonNull
@@ -32,13 +36,27 @@ public class NewsAdapter extends RecyclerView.Adapter<NewsAdapter.NewsViewHolder
     @Override
     public void onBindViewHolder(@NonNull NewsViewHolder holder, int position) {
         NewsItem currentItem = newsList.get(position);
+
         holder.titleTextView.setText(currentItem.title);
         holder.descTextView.setText(currentItem.desc);
 
-        // Load image using Glide (add Glide dependency to your project)
+        // Load image using Glide
         Glide.with(holder.itemView.getContext())
                 .load(currentItem.imageUrl)
                 .into(holder.imageView);
+
+        // Set OnClickListener
+        holder.itemView.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(context, NewsDetailActivity.class);
+                intent.putExtra("documentId", currentItem.documentId);
+                intent.putExtra("title", currentItem.title);
+                intent.putExtra("content", currentItem.desc);
+                intent.putExtra("imageUrl", currentItem.imageUrl);
+                context.startActivity(intent);
+            }
+        });
     }
 
     @Override

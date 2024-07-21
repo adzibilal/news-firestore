@@ -13,6 +13,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.NewsAdziFirestore">
         <activity
+            android:name=".UpdateNewsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".NewsDetailActivity"
+            android:exported="false" />
+        <activity
             android:name=".AddNewsActivity"
             android:exported="false" />
         <activity
