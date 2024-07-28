@@ -1,7 +1,13 @@
 
 # News Adzi Firestore
 
-Project ini dibuat untuk memenuhi tugas besar mata kuliah Pemrograman Mobile 1 di bawah bimbingan dosen Nova Agustina.
+Project ini dibuat untuk memenuhi tugas besar mata kuliah Pemrograman Mobile 1 di bawah bimbingan dosen Ibu Nova Agustina.
+
+Nama: Adzi Bilal Maulana H
+
+Kelas: TIF 222 K
+
+NPM: 22552011164
 
 ## Deskripsi Proyek
 
@@ -37,7 +43,7 @@ Proyek ini melanjutkan project UTS dan menggunakan Firestore Database dan Storag
 
 1. Clone repositori ini:
    ```bash
-   git clone https://github.com/username/NewsAdziFirestore.git
+   git clone https://github.com/adzibilal/news-firestore.git
    ```
    
 2. Buka project menggunakan Android Studio.
@@ -50,6 +56,16 @@ Proyek ini melanjutkan project UTS dan menggunakan Firestore Database dan Storag
 
 6. Konfigurasikan Firestore Database dan Storage sesuai kebutuhan aplikasi.
 
+## Link APK RELEASE
+Link APK RELEASE dapat diakses di Google Drive:
+[APK RELEASE NEWS ADZI FIRESTORE](https://drive.google.com/file/d/1z-7niTA3fZ_3MOzEp3F0588VzJPscqJ7/view?usp=sharing)
+
+## Kredensial
+
+email: super@admin.com
+
+password: superadmin
+
 ## Penggunaan
 
 1. Buka aplikasi di perangkat Android atau emulator.
@@ -57,15 +73,14 @@ Proyek ini melanjutkan project UTS dan menggunakan Firestore Database dan Storag
 3. Tambahkan berita baru dengan mengisi form yang tersedia dan unggah gambar yang relevan.
 4. Lihat, edit, atau hapus berita yang ada dari daftar berita.
 
-## Dokumentasi Video
+## Screenshoots
 
-Link video penggunaan aplikasi dapat diakses di Google Drive:
-[Video Penggunaan Aplikasi](https://drive.google.com/link_to_video)
+![image](https://github.com/user-attachments/assets/689ed916-1f80-45a9-a4ee-959479dc5bd4)
+![image](https://github.com/user-attachments/assets/3b1fe563-fcff-4c1a-873e-cf3f69539037)
+![image](https://github.com/user-attachments/assets/e92a51e0-95d6-4d9a-b538-66d58280a282)
+![image](https://github.com/user-attachments/assets/df6312c5-9825-4f18-884c-d611331f5deb)
+![image](https://github.com/user-attachments/assets/1c7b9936-a930-493d-a9b0-d74883c31507)
+![image](https://github.com/user-attachments/assets/a908198e-5eaf-4c7e-8c4e-ebe294c19db8)
+![image](https://github.com/user-attachments/assets/ae69c6a1-b8d4-4451-8fa8-7227963fb460)
+![image](https://github.com/user-attachments/assets/5c7005d0-17e8-432d-932f-81b407974273)
 
-## Pengumpulan
-
-Link project di GitHub atau Google Drive dan link Google Drive yang dapat diakses oleh email: novaagustina72@gmail.com
-
-## Kredensial
-
-Pastikan untuk mencantumkan link GitHub/Drive, username, dan password di delink/siakadcloud.
